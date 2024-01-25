@@ -1,0 +1,62 @@
+   0 cd ..
+   1 ls
+   2 cd /home
+   3 mkdir animals
+   4 ls
+   5 cd /animals
+   6 cd animals
+   7 mkdir dogs
+   8 ls
+   9 mkdir cats
+  10 ls
+  11 mkdir fish
+  12 ls
+  13 cd cats
+  14 touch pluto.txt
+  15 ls
+  16 cd ..
+  17 cd dogs
+  18 touch garfield.txt
+  19 ls
+  20 cd ..
+  21 cd fish
+  22 touch nemo.txt
+  23 ls
+  24 cd /home
+  25 mkdir humans
+  26 ls
+  27 cd /tmp
+  28 touch adam.txt
+  29 cp /tmp/adam.txt /home/humans/
+  30 ls
+  31 cd humans
+  32 cd /home
+  33 ls
+  34 cd /humans
+  35 cd humans/
+  36 ls
+  37 cd /tmp
+  38 touch evA.txt
+  39 ls
+  40 mv /tmp/evA.txt /opt/eve.txt
+  41 ls
+  42 cd opt/
+  43 cd /opt/
+  44 ls
+  45 mv /opt/eve.txt /home/humans/
+  46 cd /home
+  47 cd humans
+  48 ls
+  49 cd..
+  50 cd ..
+  51 ls
+  52 cd animals
+  53 ls
+  54 cd /cats
+  55 cd /dogs
+  56 ls
+  57 cd /cats/
+  58 cd cats/
+  59 ls
+  60 cd
+  61 history > history_25.01.txt
