@@ -1,0 +1,55 @@
+Filesystem           1K-blocks      Used Available Use% Mounted on
+/dev/root              5120000   2417704   2702296  47% /
+devtmpfs                 93464         0     93464   0% /dev
+3 /tmp/file.txt	
+ AuthenticX86
+   0 ls
+   1 ls -a
+   2 ls -al
+   3 cd /
+   4 ls
+   5 df -h
+   6 cd
+   7 df | head -n 3
+   8 df | head -n 3 >> 
+   9 cat /opt
+  10 cat opt
+  11 cd /tmp
+  12 vi file.txt
+  13 cd
+  14 vi /tmp/file1.txt
+  15 df | head -n 3 >> /tmp/file.txt
+  16 cat /tmp/file.txt
+  17 cd /tmp
+  18 chmod g+w file.txt
+  19 chmod u-r file.txt 
+  20 ls -la
+  21 cd
+  22 date >> date.txt
+  23 ls -la
+  24 df -h / >> date.txt 
+  25 cat date.txt 
+  26 date > date.txt 
+  27 cat date.txt 
+  28 df -h / > date.txt 
+  29 cat date.txt 
+  30 df -h > date.txt 
+  31 cat date.txt 
+  32 date | 
+  33 date | df -h / date.txt 
+  34 cat date.txt 
+  35 date > date1.txt
+  36 cat date1.txt 
+  37 df -h / >> date1.txt
+  38 cat date1.txt 
+  39 history >> date1.txt
+  40 cat date1.txt 
+  41 wc -l /
+  42 wc -l /tmp
+  43 wc -l /tmp/file.txt
+  44 wc -l /tmp/file.txt >> /tmp/file.txt
+  45 cat /tmp/file.txt 
+  46 grep vendor /proc/cpuinfo
+  47 grep vendor /proc/cpuinfo >> /tmp/file.txt
+  48 cat /tmp/file.txt 
+  49 history >> /tmp/file.txt
